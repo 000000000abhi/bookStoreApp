@@ -4,6 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+.dark {
+  --background-color:rgb(10, 1, 32);
+  --text-color: #ffffff;
+}
+
 body {
-  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
